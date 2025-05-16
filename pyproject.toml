@@ -1,0 +1,22 @@
+[project]
+name = "pi2-dados"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "salvatoregx",email = "sgxerri@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb (>=1.2.2,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "faker (>=37.3.0,<38.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "pi2_dados", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
