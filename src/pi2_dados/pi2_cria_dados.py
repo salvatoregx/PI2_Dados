@@ -176,7 +176,7 @@ con.sql("""
         """)
 
 # internacao (id, id_paciente, id_sala, id_medico, data)
-n_internacoes = 40
+n_internacoes = 20
 capacidade_map = {'Single': 1, 'Duplo': 2, 'Triplo': 3}
 # garantindo que o número de pacientes não ultrapasse os leitos de cada quarto
 salas_df = con.sql("SELECT id, capacidade FROM sala LIMIT 20").fetchdf()

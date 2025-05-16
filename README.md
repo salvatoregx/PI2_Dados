@@ -9,6 +9,8 @@ Este projeto foi desenvolvido para a disciplina **Projeto Integrador 2** dos cur
 - **DuckDB**: Banco de dados embutido para análises rápidas ([documentação](https://duckdb.org/docs/stable/)).
 - **Pandas**: Manipulação de dados tabulares.
 - **Faker**: Geração de dados fictícios.
+- **Jupyter Lab**: Simulação de fluxos ETL e análises descritivas.
+- **Plotly**: Geração de visualizações interativas.
 
 ## 📥 Instalação
 
@@ -40,6 +42,7 @@ PI2_Dados \
 │   │   ├── pi2_cria_tabelas.py \
 │   │   └── pi2_remove_tabelas.py \
 ├── Exemplos.ipynb \
+├── ETL_e_Análises.ipynb \
 ├── LICENSE \
 ├── pi2_solucao_hospitalar.db \
 ├── poetry.lock \
@@ -49,12 +52,25 @@ PI2_Dados \
 
 ## 🚀 Como Executar
 
-**Para executar o menu principal**
+**Para executar o menu de criação de tabelas e dados**
 ```bash
 poetry run python -m pi2_dados
 ```
 
+**Para executar análises ETL e visualizações:**
+```bash
+poetry run jupyter lab
+```
+
 ## 💡 Exemplos de Uso
+
+**ETL e Análises (Jupyer Lab):**
+
+O notebook ETL_e_Análises.ipynb simula fluxos ETL e contém a execução das seguintes análises:
+    1.    Gráfico de barras de internações por setor
+    2.    Agenda de manutenções preventivas
+    3.    Utilização de tratamentos por tipo de equipamento
+    4.    Radar de ocupação de leitos
 
 **Consulta Básica (Python):**
 ```python
