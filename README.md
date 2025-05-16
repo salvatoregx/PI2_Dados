@@ -58,6 +58,7 @@ poetry run python -m pi2_dados
 ```
 
 **Para executar análises ETL e visualizações:**
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salvatoregx/PI2_Dados/HEAD?urlpath=%2Fdoc%2Ftree%2FETL_e_An%C3%A1lises.ipynb)
 ```bash
 poetry run jupyter lab
 ```
