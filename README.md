@@ -34,11 +34,11 @@ PI2_Dados \
 │   │   ├── tipoequipamento.txt \
 │   │   └── tratamentos.csv \
 │   └── pi2_dados \
-│       ├── __init__.py \
-│       ├── __main__.py \
-│       ├── pi2_cria_dados.py \
-│       ├── pi2_cria_tabelas.py \
-│       └── pi2_remove_tabelas.py \
+│   │   ├── __init__.py \
+│   │   ├── __main__.py \
+│   │   ├── pi2_cria_dados.py \
+│   │   ├── pi2_cria_tabelas.py \
+│   │   └── pi2_remove_tabelas.py \
 ├── Exemplos.ipynb \
 ├── LICENSE \
 ├── pi2_solucao_hospitalar.db \
