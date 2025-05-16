@@ -25,23 +25,23 @@ poetry install
 
 ## 📁 Estrutura do Projeto
 
-PI2_Dados
-├── src
-│   └── pi2_dados
-│       ├── __init__.py
-│       ├── main.py
-│       ├── pi2_cria_dados.py
-│       ├── pi2_cria_tabelas.py
-│       ├── pi2_remove_tabelas.py
-│       └── listas
-│           ├── especialidades.txt
-│           ├── insumos.txt
-│           ├── siglas_estados.txt
-│           ├── tipoequipamento.txt
-│           └── tratamentos.csv
-├── poetry.lock
-├── pyproject.toml
-└── README.md
+PI2_Dados \
+├── src \
+│   └── pi2_dados \
+│       ├── __init__.py \
+│       ├── main.py \
+│       ├── pi2_cria_dados.py \
+│       ├── pi2_cria_tabelas.py \
+│       ├── pi2_remove_tabelas.py \
+│       └── listas \
+│           ├── especialidades.txt \
+│           ├── insumos.txt \
+│           ├── siglas_estados.txt \
+│           ├── tipoequipamento.txt \
+│           └── tratamentos.csv \
+├── poetry.lock \
+├── pyproject.toml \
+└── README.md \
 
 ## 🚀 Como Executar
 
