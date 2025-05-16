@@ -27,21 +27,25 @@ poetry install
 
 PI2_Dados \
 ├── src \
-│   └── pi2_dados \
-│       ├── __init__.py \
-│       ├── main.py \
-│       ├── pi2_cria_dados.py \
-│       ├── pi2_cria_tabelas.py \
-│       ├── pi2_remove_tabelas.py \
-│       └── listas \
-│           ├── especialidades.txt \
-│           ├── insumos.txt \
-│           ├── siglas_estados.txt \
-│           ├── tipoequipamento.txt \
-│           └── tratamentos.csv \
+│   ├── listas \
+│   │   ├── especialidades.txt \
+│   │   ├── insumos.txt \
+│   │   ├── siglas_estados.txt \
+│   │   ├── tipoequipamento.txt \
+│   │   └── tratamentos.csv \
+│   └── pi2_dados \
+│       ├── __init__.py \
+│       ├── __main__.py \
+│       ├── pi2_cria_dados.py \
+│       ├── pi2_cria_tabelas.py \
+│       └── pi2_remove_tabelas.py \
+├── Exemplos.ipynb \
+├── LICENSE \
+├── pi2_solucao_hospitalar.db \
 ├── poetry.lock \
 ├── pyproject.toml \
-└── README.md 
+└── README.md
+
 
 ## 🚀 Como Executar
 
