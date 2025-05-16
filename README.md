@@ -41,7 +41,7 @@ PI2_Dados \
 │           └── tratamentos.csv \
 ├── poetry.lock \
 ├── pyproject.toml \
-└── README.md \
+└── README.md 
 
 ## 🚀 Como Executar
 
