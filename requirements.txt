@@ -71,7 +71,7 @@ ipykernel==6.29.5
     # via
     #   jupyterlab
     #   pi2-dados (pyproject.toml)
-ipython==9.2.0
+ipython
     # via ipykernel
 ipython-pygments-lexers==1.1.1
     # via ipython
