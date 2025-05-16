@@ -6,7 +6,7 @@ Este projeto foi desenvolvido para a disciplina **Projeto Integrador 2** dos cur
 
 - **Python 3.10+**: Linguagem principal para scripts e lógica.
 - **Poetry**: Gerenciador de dependências ([instalação](https://python-poetry.org/docs/)).
-- **DuckDB**: Banco de dados embutido para análises rápidas ([documentação](https://duckdb.org/)).
+- **DuckDB**: Banco de dados embutido para análises rápidas ([documentação](https://duckdb.org/docs/stable/)).
 - **Pandas**: Manipulação de dados tabulares.
 - **Faker**: Geração de dados fictícios.
 
@@ -14,8 +14,8 @@ Este projeto foi desenvolvido para a disciplina **Projeto Integrador 2** dos cur
 
 **Clone o repositório:**
 ```bash
-git clone [placeholder]
-cd [placeholder]
+git clone https://github.com/salvatoregx/PI2_Dados.git
+cd PI2_Dados
 ```
 
 **Instale as dependências:**
@@ -25,18 +25,20 @@ poetry install
 
 ## 📁 Estrutura do Projeto
 PI2_Dados
-├── listas
-│ ├── especialidades.txt
-│ ├── insumos.txt
-│ ├── sigas_estados.txt
-│ ├── tipoequipamento.txt
-│ └── tratamentos.csv
+
 ├── src
-│ └── pi2_dados
-│ ├── init.py
-│ ├── pi2_cria_dados.py
-│ ├── pi2_cria_tabelas.py
-│ └── pi2_remove_tabelas.py
+│ │ └── pi2_dados
+│ │ ├── init.py
+│ │ ├── main.py
+│ │ ├── pi2_cria_dados.py
+│ │ ├── pi2_cria_tabelas.py
+│ │ └── pi2_remove_tabelas.py
+│ │ ├── listas
+│ │ │ ├── especialidades.txt
+│ │ │ ├── insumos.txt
+│ │ │ ├── sigas_estados.txt
+│ │ │ ├── tipoequipamento.txt
+│ │ │ └── tratamentos.csv
 ├── poetry.lock
 ├── pyproject.toml
 └── README.md
@@ -46,23 +48,6 @@ PI2_Dados
 **Para executar o menu principal**
 ```bash
 poetry run python -m pi2_dados
-```
-
-**Para executar os scripts individuais**
-
-***Criar Tabelas:***
-```bash
-poetry run python scripts/pi2_cria_tabelas.py
-```
-
-***Popular Dados:***
-```bash
-poetry run python scripts/pi2_cria_dados.py
-```
-
-***Remover Tabelas (opcional):***
-```bash
-poetry run python scripts/pi2_remove_tabelas.py
 ```
 
 ## 💡 Exemplos de Uso

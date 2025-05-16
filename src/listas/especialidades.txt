@@ -1,0 +1,10 @@
+Clínica Médica
+Pediatria
+Cirurgia Geral
+Cardiologia
+Ortopedia
+Ginecologia e Obstetrícia
+Anestesiologia
+Neurologia
+Oftalmologia
+Emergência
