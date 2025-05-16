@@ -64,7 +64,7 @@ poetry run jupyter lab
 
 ## 💡 Exemplos de Uso
 
-**ETL e Análises (Jupyer Lab):**
+**ETL e Análises (Jupyer Lab):** \
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salvatoregx/PI2_Dados/HEAD?urlpath=%2Fdoc%2Ftree%2FETL_e_An%C3%A1lises.ipynb) \
 O notebook ETL_e_Análises.ipynb simula fluxos ETL e contém a execução das seguintes análises: \
     1. Gráfico de barras de internações por setor \
@@ -73,8 +73,8 @@ O notebook ETL_e_Análises.ipynb simula fluxos ETL e contém a execução das se
     4. Radar de ocupação de leitos
     
 
-**Consulta Básica (Python):**
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salvatoregx/PI2_Dados/HEAD?urlpath=%2Fdoc%2Ftree%2FExemplos.ipynb) \
+**Consulta Básica (Python):** \
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salvatoregx/PI2_Dados/HEAD?urlpath=%2Fdoc%2Ftree%2FExemplos.ipynb)
 ```python
 import duckdb
 con = duckdb.connect("pi2_solucao_hospitalar.db")
