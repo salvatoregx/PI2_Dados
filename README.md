@@ -68,10 +68,15 @@ poetry run jupyter lab
 **ETL e Análises (Jupyer Lab):**
 
 O notebook ETL_e_Análises.ipynb simula fluxos ETL e contém a execução das seguintes análises:
+
     1.    Gráfico de barras de internações por setor
+    
     2.    Agenda de manutenções preventivas
+    
     3.    Utilização de tratamentos por tipo de equipamento
+    
     4.    Radar de ocupação de leitos
+    
 
 **Consulta Básica (Python):**
 ```python
